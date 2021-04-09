@@ -1,0 +1,546 @@
+*{
+  margin :0;
+}
+
+html, body{
+    height: 640px;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.FOOTER{
+    position: relative;
+    display: block;
+    height: 50px;
+    top:0;
+    width: 100%;
+    background-color: black;
+}
+
+.text-btn-1{
+  top: 30%;
+  font-size: 20px;
+  bottom: -30px;
+  color:#04F3FF;
+  cursor:pointer;
+}
+
+.text-btn-1:hover{
+  color:#C00CFF;
+}
+
+.header-font{
+  font-size: 20px;
+  top: 20px;
+  left: -50px;
+}
+
+.drkgry{
+  color: rgba(1,1,1,0.8);
+  font-weight: 600;
+}
+.black{
+  color: black !important;
+  color: rgba(0,0,0,0.8) !important;
+  font-weight: 600;
+}
+.blk{
+  color: black;
+  font-weight: 600;
+  font-size:120px !important;
+  position:absolute;
+  top:0 !important;
+}
+.white{
+  color: white;
+  font-weight: 600;
+  font-size:180px !important;
+  position:absolute;
+  top:0 !important;
+}
+.silver{
+  color:silver;
+  font-weight: 520;
+}
+
+.left-section-2-a{
+    color: rgba(1,1,1,0.8);
+    font-weight: 600;
+    font-size: 4vw;
+    top: 32%;
+}
+
+.left-section-2-b{
+    color: rgba(1,1,1,0.1);
+    font-weight: 600;
+    font-size: 10vw;
+    top: 6%;
+}
+
+.left-section-2-c{
+    color: rgba(1,1,1,0.7);
+    font-weight: 600;
+    font-size: 1.8vw;
+    top: 60%;
+    margin-left: 10px;
+}
+
+
+.title-font{
+  top: 40%;
+  font-size: 14vw;
+  bottom: -30px;
+  position:absolute;
+  left:0;
+  text-align: left
+  width: 50%;
+  height: 300px;
+}
+
+
+.title-font-2{
+  top: 40%;
+  font-size: 18vw !important;
+  bottom: -30px;
+  position:absolute;
+  left:0;
+  text-align: left
+  width: 50%;
+  height: 300px;
+}
+
+#HEADER_0{
+    position: relative;
+    display: block;
+    height: 60px;
+    top:0;
+    width: 100%;
+    background-color: white;
+}
+
+#BODY_0{
+    position: relative;
+    display: block;
+    height: 640px;
+    width: 100%;
+    background-color: white;
+}
+
+.IMAGE_PENROSE{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image:   url(PENROSE.svg);
+    background-repeat:  no-repeat;
+    background-size:    40%;
+    opacity:    0.7;
+    top:    0;
+    background-position: center center;
+}
+
+#LEFT_0{
+    position: absolute;
+    display: inline-block;
+    height: 640px;
+    top:0;
+    width: 50%;
+    background-image: url(imgs/rich-0.jpg);
+    background-size: stretch;
+    background-size: 200%;
+    background-position: -300px 0;
+}
+#RIGHT_0{
+    position: absolute;
+    display: inline-block;
+    height: 640px;
+    margin-left: 50%;
+    top:0;
+    width: 50%;
+    background-color: black;
+    background-image: url(imgs/poor-0.jpg);
+    background-size: stretch;
+    background-size: 200%;
+    background-position: -300px -150px;
+}
+
+#LEFT_1{
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    top:0;
+    width: 50%;
+}
+#RIGHT_1{
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    margin-left: 50%;
+    top:0;
+    width: 50%;
+}
+#LEFT_2{
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    top:0;
+    width: 50%;
+    background-image: url(imgs/why.jpg);
+    background-size: stretch;
+    background-size: 200%;
+    background-position: -300px 0;
+    opacity: 0.4;
+}
+#RIGHT_2{
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    top:0;
+    width: 50%;
+    background-image: url(imgs/fawkes.jpg);
+    background-size: stretch;
+    background-size: 200%;
+    background-position: -80px -100px;
+    opacity: 0.4;
+}
+#LEFT_3{
+    position: absolute;
+    display: inline-block;
+    height: 640px;
+    top:0;
+    width: 50%;
+    background-color: white;
+    background-image: url(imgs/city.jpg);
+    background-size: stretch;
+    background-size: 100%;
+    background-position: 0 -100px;
+}
+#RIGHT_3{
+    position: absolute;
+    display: inline-block;
+    height: 640px;
+    top:0;
+    width: 50%;
+    
+}
+#RIGHT_3_BG{
+    position: absolute;
+    display: inline-block;
+    height: 640px;
+    top:0;
+    width: 100%;
+    background-color: white;
+    background-image: url(imgs/cargo.jpg);
+    background-size: stretch;
+    background-size: 200%;
+    background-position: -300px 0;   
+}
+
+.INFO_GRAPH_0{
+    position:absolute;
+    left:0;
+    top:27%;
+    width:95%;
+    height:70%;
+    background-color: black;
+    overflow:hidden;
+    
+
+}
+
+.triangle-left-1{
+    left:-20%;
+}
+.triangle-left-2{
+    left:30%;
+}
+#triangle-right-top {
+      position:absolute;
+      width: 150px;
+      height: 50%;
+      transform: skew(15deg);
+      background: white;
+}
+#triangle-right-bot {
+      position:absolute;
+      top:50%;
+      width: 150px;
+      height: 50%;
+      transform: skew(-15deg);
+      background: white;
+}
+#number-box{
+    position:absolute;
+    top:0;
+    width: 40%;
+    height: 100%;
+    left:0%;
+    background: black;
+}
+#data-box{
+    position:absolute;
+    top:0;
+    width: 60%;
+    height: 100%;
+    left:37%;
+    background: white;
+}
+.BODY_STYLE{
+    position: relative;
+    display: block;
+    height: 640px;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.box-e{
+  position:relative;
+  width:120%;
+  height:20%;
+}
+.box-o{
+  position:relative;
+  width:120%;
+  height:20%;
+}
+
+#BAR_1{
+  width: 88%;
+  background-color: black;
+  position:relative;
+  border-radius:10px;
+  background: rgb(4,243,255);
+  background: linear-gradient(90deg, rgba(4,243,255,1) 0%, rgba(192,12,255,1) 100%);
+}
+
+#BAR_2{
+  width: 80%;
+  background-color: black;
+  position:relative;
+  border-radius:10px;
+  background: rgb(4,243,255);
+  background: linear-gradient(90deg, rgba(4,243,255,1) 0%, rgba(192,12,255,1) 100%);
+}
+
+#BAR_3{
+  width: 80%;
+  background-color: black;
+  position:relative;
+  border-radius:10px;
+  background: rgb(4,243,255);
+  background: linear-gradient(90deg, rgba(4,243,255,1) 0%, rgba(192,12,255,1) 100%);
+}
+
+#BAR_4{
+  width: 64%;
+  background-color: black;
+  position:relative;
+  border-radius:10px;
+  background: rgb(4,243,255);
+  background: linear-gradient(90deg, rgba(4,243,255,1) 0%, rgba(192,12,255,1) 100%);
+}
+
+#BAR_5{
+  width: 58%;
+  background-color: black;
+  position:relative;
+  border-radius:10px;
+  background: rgb(4,243,255);
+  background: linear-gradient(90deg, rgba(4,243,255,1) 0%, rgba(192,12,255,1) 100%);
+}
+
+
+.graph-1{
+    color: rgba(1,1,1,0.7);
+    font-weight: 600;
+    font-size: 2vw;
+    top: calc(50% - 10px);
+    margin-left: 10px;
+    color:white;
+    text-align:left !important;
+    left:10px;
+    height:300px;
+}
+
+.graph-2{
+    position: absolute;
+    display: inline-block;
+    height: 300px;
+    top:22%;
+    width: 100%;
+    background-image: url(imgs/graph.svg);
+    background-size: stretch;
+    background-repeat:no-repeat;
+    background-size: 80%;
+    background-position: 65% 0;
+ }
+
+.graph-3{
+    position: absolute;
+    display: inline-block;
+    height: 250px;
+    top:60%;
+    width: 100%;
+    background-image: url(imgs/graph2.svg);
+    background-size: stretch;
+    background-repeat:no-repeat;
+    background-size: 80%;
+    background-position: 60% 0;
+ }
+
+.LEFT{
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    top:0;
+    width: 50%;
+}
+.RIGHT{
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    margin-left: 50%;
+    top:0;
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+.text-style{
+  position:absolute;
+  width: 100%;
+  letter-spacing: 10px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  text-align:center;
+  font-family: "Founders Grotesk Text","Work Sans",sans-serif;
+}
+
+.BAR{
+height: 18%;
+margin-bottom:4px;
+}
+#BAR_CONTAINER{
+  position: absolute;
+  left:0px;
+  top:25%;
+  width:110%;
+  height:70%;
+}
+
+.hide{
+  display:none;
+}
+.graph-para{
+  position:absolute;
+  left:25%;
+  padding-top:10px;
+  top:35%;
+  width: 50%;
+  height: 55%;
+  text-align:center;
+  font-family: "Founders Grotesk Text","Work Sans",sans-serif;
+  color: white !important;
+  font-size: 2.2vw;
+  margin-top: 10px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 4px;
+}
+
+
+.bgsilver{
+  background-color: rgba(1,1,1,1);
+}
+
+.BAR_CAPTION{
+    color: rgba(1,1,1,0.7);
+    font-weight: 600;
+    font-size: 0.8vw;
+    bottom: 0;
+    margin-left: 10px;
+    text-align:left !important;
+}
+
+.BAR_TITLE_POS{
+  top:4%;
+  font-size:10vw !important;
+  color:silver;
+}
+#IMAGE_PENROSE_SM{
+    background-image:     url(PENROSE.svg);
+    background-repeat:    no-repeat;
+    background-size:      90%;
+    background-position:  center;
+    position:             absolute;
+    width:                60px;
+    height:               60px;
+    left:                 calc(50% - 30px);
+    top:                  0;
+}
+
+#BUTTON_0{
+  border: 5px solid #04F3FF;
+  width: 500px;
+  height: 60px;
+  position: absolute;
+  left:calc( 50% - 250px);
+  top:calc( 100% - 70px );
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+#FOUR{
+
+  
+}
+
+
+#LEFT_4{
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    top:0;
+    width: 50%;
+    background-color: rgba( 255, 0, 0, 0.5);
+    background-image: url(imgs/);
+    background-size: stretch;
+    background-size: 100%;
+    background-position: 0 -100px;
+}
+
+#RIGHT_4{
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    top:0;
+    left:50%;
+    width: 50%;
+    background-color: rgba( 0, 0, 255, 0.5);
+    background-image: url(imgs/);
+    background-size: stretch;
+    background-size: 100%;
+    background-position: 0 -100px;
+}
+.grey-img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.cover-white{
+  position: absolute;
+  left: 0;
+  top:0;
+  width:100%;
+  height:100%;
+  background-color: white;
+  opacity: 0.75;
+
+}
+
+#gradient-colors{ 
+  background-color: #6BE8FC; 
+  background-color: #5fc4fa; 
+  background-color: #6097F7; 
+  background-color: #8c4cf6; 
+  background-color: #af35f6; 
+}
+
